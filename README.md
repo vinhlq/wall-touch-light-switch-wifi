@@ -109,7 +109,7 @@
 
       ```JSON
       {
-        "type":"lighton",
+        "type":"setlightlevel",
         "level": number,
         "deviceEndpoint": {
           "endpoint": 1
@@ -134,7 +134,7 @@
 
         ```JSON
         {
-          "type":"setlighthuesat",
+          "type":"setlightcolortemp",
           "colorTemp": number,
           "deviceEndpoint": {
             "endpoint": 1
